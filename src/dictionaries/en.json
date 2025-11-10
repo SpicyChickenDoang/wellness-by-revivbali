@@ -1,0 +1,153 @@
+
+{
+  "navigation": {
+    "home": "Home",
+    "treatments": "Treatments",
+    "bookNow": "Book Now",
+    "contact": "Contact",
+    "bookATreatment": "Book a Treatment"
+  },
+  "hero": {
+    "title": "Feel Younger. Recover Faster. Live Bali Fully.",
+    "subtitle": "Anti-aging and recovery IV drips — delivered to your villa or in our clinic, 24/7.",
+    "cta": "WhatsApp our medical team now"
+  },
+  "whyWeExist": {
+    "sectionTitle": "Why We Exist",
+    "title": "Bali is too short to waste on fatigue and aging.",
+    "title2": "Our NAD+ Treatment",
+    "subtitle": "Radiance after travel. Clarity when you need it most. A younger you, living Bali without limits.",
+    "subtitle2": "NAD+ powers every cell to repair and renew. Restoring it strengthens focus, recovery, and vitality. Each infusion at Reviv Bali recharges your body from within, bringing back clarity, endurance, and a renewed sense of youth."
+  },
+  "designedForFeelings": {
+    "title": "Designed for How You Want to Feel",
+    "bookNow": "Book Now",
+    "cards": {
+      "glow": {
+        "title": "Glow & Anti-Aging",
+        "description": "Look refreshed, radiant, and youthful."
+      },
+      "energy": {
+        "title": "Energy Reset",
+        "description": "Recharge after long days or late nights."
+      },
+      "jetLag": {
+        "title": "Jet Lag Reset",
+        "description": "Start fresh, no matter your time zone."
+      },
+      "hydration": {
+        "title": "Hydration Boost",
+        "description": "Replenish after Bali's sun and heat."
+      },
+      "nad": {
+        "title": "NAD+ Longevity",
+        "description": "Support your cells for a youthful future."
+      },
+      "custom": {
+        "title": "Custom Blend",
+        "description": "Don't see what you need? We can create a custom IV drip tailored to your specific goals.",
+        "cta": "Contact Us"
+      }
+    }
+  },
+  "trustedCare": {
+    "title": "Trusted Care, Proven Results",
+    "subtitle": "Behind every drip is a team of medical professionals and years of experience. We’ve built Reviv Bali on science, safety, trust, and outcomes that speak for themselves.",
+    "stats": {
+      "pioneering": "pioneering IV wellness in Bali",
+      "patients": "patients served across Indonesia",
+      "doctor": "licensed doctors",
+      "nurses": "experienced nurses on call"
+    },
+    "since": "Since 2023"
+  },
+  "wellnessWherever": {
+    "title": "Your Wellness, Wherever You Are",
+    "benefits": {
+      "licensed": "Licensed doctors & nurses at your service",
+      "availability": "24/7 availability across Bali",
+      "equipment": "Safe, medical-grade equipment",
+      "location": "Clinic or private villa treatments"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Real stories from people who've experienced the RevivBali difference.",
+    "clients": {
+      "jessica": {
+        "quote": "The athletic recovery drip is a game-changer! I bounce back so much faster after my long runs. I feel less sore and more energized for my next training session.",
+        "name": "June P.",
+        "title": "Marathon Runner"
+      },
+      "david": {
+        "quote": "With my hectic schedule, the energy boost drip is my secret weapon. It keeps me sharp, focused, and ready to tackle any challenge. Highly recommended!",
+        "name": "Darwin N.",
+        "title": "Entrepreneur"
+      },
+      "sophia": {
+        "quote": "The immune support drip has been a lifesaver, especially during flu season. I haven't been sick once since I started my sessions. I feel healthier than ever.",
+        "name": "Stevian W.",
+        "title": "Software Engineer"
+      }
+    }
+  },
+  "finalCta": {
+    "title": "Feel Younger. Live Stronger. Start Today.",
+    "cta": "WhatsApp our medical team now"
+  },
+  "treatmentsPage": {
+    "title": "Our Treatments",
+    "subtitle": "Explore our range of IV therapies, vitamin injections, and aesthetic services designed to elevate your well-being."
+  },
+  "treatmentDetailPage": {
+    "benefits": "Benefits",
+    "price": "Price",
+    "bookButton": "Book This Treatment",
+    "related": "Related Treatments"
+  },
+  "bookingPage": {
+    "title": "Book Your Treatment",
+    "subtitle": "Schedule your wellness experience in just a few clicks. We'll come to you.",
+    "loading": "Loading form...",
+    "form": {
+      "yourDetails": "Your Details",
+      "treatment": "Treatment",
+      "selectTreatment": "Select a treatment",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john.doe@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "(123) 456-7890",
+      "notes": "Notes (optional)",
+      "notesPlaceholder": "Any special requests or health information...",
+      "total": "Total Amount",
+      "confirmButton": "Confirm Booking",
+      "successTitle": "Booking Confirmed!",
+      "successDescription": "We've received your request and will be in touch shortly."
+    }
+  },
+  "contactPage": {
+    "title": "Get In Touch",
+    "subtitle": "We're here to help. Contact us with any questions or to book your treatment.",
+    "contactInfo": "Contact Information",
+    "mobileService": "Mobile service available in major cities.",
+    "headquarters": "Headquarters: 123 Wellness Ave, Healthville, CA 90210",
+    "followUs": "Follow Us"
+  },
+  "footer": {
+    "tagline": "Wellness that comes to you.",
+    "services": "Services",
+    "ivTherapies": "IV Therapies",
+    "vitaminInjections": "Vitamin Injections",
+    "aesthetics": "Aesthetics",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "careers": "Careers",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© {year} Wellness by RevivBali. All Rights Reserved."
+  },
+  "whatsapp": "Chat on WhatsApp"
+}

@@ -1,0 +1,100 @@
+{
+  "placeholderImages": [
+    {
+      "id": "nad-reboot-100",
+      "description": "NAD+ Reboot 100 IV bag",
+      "imageUrl": "/assets/images/products/r-biru.webp",
+      "imageHint": "IV therapy"
+    },
+    {
+      "id": "nad-restore-200",
+      "description": "NAD+ Restore 200 IV bag",
+      "imageUrl": "/assets/images/products/r-ungu.webp",
+      "imageHint": "IV therapy"
+    },
+    {
+      "id": "nad-revive-250",
+      "description": "NAD+ Revive 250 IV bag",
+      "imageUrl": "/assets/images/products/r-orange.webp",
+      "imageHint": "IV therapy"
+    },
+    {
+      "id": "nad-regenerate-500",
+      "description": "NAD+ Regenerate 500 IV bag",
+      "imageUrl": "/assets/images/products/r-merah.webp",
+      "imageHint": "IV therapy"
+    },
+    {
+      "id": "nad-elite-750",
+      "description": "NAD+ Elite 750 IV bag",
+      "imageUrl": "/assets/images/products/r-hijau.webp",
+      "imageHint": "IV therapy"
+    },
+    {
+      "id": "contact-hero",
+      "description": "A modern and clean customer service setup with headsets and monitors",
+      "imageUrl": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y3VzdG9tZXIlMjBzZXJ2aWNlfGVufDB8fHx8MTc1OTQ1MzM4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "customer service"
+    },
+    {
+      "id": "doc1",
+      "imageUrl": "https://images.unsplash.com/photo-1612531385446-f7e6d131e1d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkb2N0b3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3NDM0OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Photo of Dr. Evelyn Reed",
+      "imageHint": "doctor portrait"
+    },
+    {
+      "id": "doc2",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkb2N0b3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3NDM0OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Photo of Dr. Marcus Thorne",
+      "imageHint": "doctor portrait"
+    },
+    {
+      "id": "doc3",
+      "imageUrl": "https://images.unsplash.com/photo-1651008376811-b90baee60c1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkb2N0b3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3NDM0OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Photo of Dr. Amelia Vance",
+      "imageHint": "doctor portrait"
+    },
+    {
+      "id": "doc4",
+      "imageUrl": "https://images.unsplash.com/photo-1612349316228-5942a9b489c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkb2N0b3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3NDM0OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Photo of Dr. Julian Hayes",
+      "imageHint": "doctor portrait"
+    },
+    {
+      "id": "doc5",
+      "imageUrl": "https://images.unsplash.com/photo-1642541724244-83d49288a86b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkb2N0b3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3NDM0OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Photo of Dr. Clara Monroe",
+      "imageHint": "doctor portrait"
+    },
+    {
+      "id": "doc6",
+      "imageUrl": "https://images.unsplash.com/photo-1673865641073-4479f93a7776?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkb2N0b3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3NDM0OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Photo of Dr. Samuel Finch",
+      "imageHint": "doctor portrait"
+    },
+    {
+      "id": "testimonial1",
+      "imageUrl": "https://images.unsplash.com/photo-1540569014015-19a7be504e3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3NDM1MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Portrait of Jessica M.",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "testimonial2",
+      "imageUrl": "https://images.unsplash.com/photo-1521119989659-a83eee488004?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzU5NzQzNTI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Portrait of David L.",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "testimonial3",
+      "imageUrl": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTk3NDM1MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Portrait of Sophia K.",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "final-cta",
+      "imageUrl": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&q=80&w=1080",
+      "description": "Smiling couple enjoying a Bali sunset",
+      "imageHint": "couple sunset"
+    }
+  ]
+}

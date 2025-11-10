@@ -1,0 +1,153 @@
+
+{
+  "navigation": {
+    "home": "Beranda",
+    "treatments": "Perawatan",
+    "bookNow": "Pesan Sekarang",
+    "contact": "Kontak",
+    "bookATreatment": "Pesan Perawatan"
+  },
+  "hero": {
+    "title": "Merasa Lebih Muda. Pulih Lebih Cepat. Nikmati Bali Sepenuhnya.",
+    "subtitle": "Tetesan IV anti-penuaan dan pemulihan — diantar ke vila Anda atau di klinik kami, 24/7.",
+    "cta": "WhatsApp tim medis kami sekarang"
+  },
+  "whyWeExist": {
+    "sectionTitle": "Mengapa Kami Ada",
+    "title": "Bali terlalu singkat untuk disia-siakan karena kelelahan dan penuaan.",
+    "subtitle": "Kecemerlangan setelah bepergian. Kejelasan saat Anda sangat membutuhkannya. Anda yang lebih muda, menjalani Bali tanpa batas.",
+    "title2": "Perawatan NAD+ Kami",
+    "subtitle2": "NAD+ memberikan energi pada setiap sel untuk memperbaiki dan memperbarui diri. Memulihkannya akan memperkuat fokus, pemulihan, dan vitalitas. Setiap infus di Reviv Bali mengisi ulang energi tubuh Anda dari dalam, mengembalikan kejernihan pikiran, daya tahan, serta rasa awet muda yang baru."
+  },
+  "designedForFeelings": {
+    "title": "Dirancang untuk Perasaan yang Anda Inginkan",
+    "bookNow": "Pesan Sekarang",
+    "cards": {
+      "glow": {
+        "title": "Glow & Anti-Aging",
+        "description": "Tampak segar, bersinar, dan awet muda."
+      },
+      "energy": {
+        "title": "Energy Reset",
+        "description": "Isi ulang tenaga setelah hari-hari yang panjang atau malam yang larut."
+      },
+      "jetLag": {
+        "title": "Jet Lag Reset",
+        "description": "Mulai segar, tidak peduli zona waktu Anda."
+      },
+      "hydration": {
+        "title": "Hydration Boost",
+        "description": "Isi kembali setelah matahari dan panas Bali."
+      },
+      "nad": {
+        "title": "NAD+ Longevity",
+        "description": "Dukung sel-sel Anda untuk masa depan yang awet muda."
+      },
+      "custom": {
+        "title": "Custom Blend",
+        "description": "Tidak menemukan yang Anda butuhkan? Kami dapat membuat tetesan IV khusus yang disesuaikan dengan tujuan spesifik Anda.",
+        "cta": "Hubungi Kami"
+      }
+    }
+  },
+  "trustedCare": {
+    "title": "Perawatan Terpercaya, Hasil Terbukti",
+    "subtitle": "Di balik setiap tetesan ada tim profesional medis dan pengalaman bertahun-tahun. Kami membangun Reviv Bali di atas ilmu pengetahuan, keamanan, kepercayaan, dan hasil yang berbicara sendiri.",
+    "stats": {
+      "pioneering": "merintis kesehatan IV di Bali",
+      "patients": "pasien dilayani di seluruh Indonesia",
+      "doctor": "dokter berlisensi",
+      "nurses": "perawat berpengalaman siap panggil"
+    },
+    "since": "Sejak 2023"
+  },
+  "wellnessWherever": {
+    "title": "Kesehatan Anda, Di Mana Pun Anda Berada",
+    "benefits": {
+      "licensed": "Dokter & perawat berlisensi siap melayani Anda",
+      "availability": "Ketersediaan 24/7 di seluruh Bali",
+      "equipment": "Peralatan medis yang aman dan berkualitas",
+      "location": "Perawatan di klinik atau vila pribadi"
+    }
+  },
+  "testimonials": {
+    "title": "Apa Kata Klien Kami",
+    "subtitle": "Kisah nyata dari orang-orang yang telah merasakan perbedaan RevivBali.",
+    "clients": {
+      "jessica": {
+        "quote": "Tetesan pemulihan atletik ini adalah pengubah permainan! Saya pulih lebih cepat setelah lari jarak jauh. Saya merasa tidak terlalu pegal dan lebih berenergi untuk sesi latihan berikutnya.",
+        "name": "June P.",
+        "title": "Pelari Maraton"
+      },
+      "david": {
+        "quote": "Dengan jadwal saya yang padat, tetesan penambah energi adalah senjata rahasia saya. Itu membuat saya tetap tajam, fokus, and siap menghadapi tantangan apa pun. Sangat direkomendasikan!",
+        "name": "Darwin N.",
+        "title": "Entrepreneur"
+      },
+      "sophia": {
+        "quote": "Tetesan pendukung kekebalan tubuh telah menjadi penyelamat, terutama selama musim flu. Saya belum pernah sakit sejak memulai sesi saya. Saya merasa lebih sehat dari sebelumnya.",
+        "name": "Stevian W.",
+        "title": "Software Engineer"
+      }
+    }
+  },
+  "finalCta": {
+    "title": "Merasa Lebih Muda. Hidup Lebih Kuat. Mulai Hari Ini.",
+    "cta": "WhatsApp tim medis kami sekarang"
+  },
+  "treatmentsPage": {
+    "title": "Perawatan Kami",
+    "subtitle": "Jelajahi rangkaian terapi infus, suntikan vitamin, dan layanan estetika kami yang dirancang untuk meningkatkan kesejahteraan Anda."
+  },
+  "treatmentDetailPage": {
+    "benefits": "Manfaat",
+    "price": "Harga",
+    "bookButton": "Pesan Perawatan Ini",
+    "related": "Perawatan Terkait"
+  },
+  "bookingPage": {
+    "title": "Pesan Perawatan Anda",
+    "subtitle": "Jadwalkan pengalaman kesehatan Anda hanya dengan beberapa klik. Kami akan datang ke tempat Anda.",
+    "loading": "Memuat formulir...",
+    "form": {
+      "yourDetails": "Detail Anda",
+      "treatment": "Perawatan",
+      "selectTreatment": "Pilih perawatan",
+      "fullName": "Nama Lengkap",
+      "fullNamePlaceholder": "Budi Santoso",
+      "email": "Alamat Email",
+      "emailPlaceholder": "budi.santoso@example.com",
+      "phone": "Nomor Telepon",
+      "phonePlaceholder": "(081) 234-5678",
+      "notes": "Catatan (opsional)",
+      "notesPlaceholder": "Permintaan khusus atau informasi kesehatan...",
+      "total": "Jumlah Total",
+      "confirmButton": "Konfirmasi Pemesanan",
+      "successTitle": "Pemesanan Dikonfirmasi!",
+      "successDescription": "Kami telah menerima permintaan Anda dan akan segera menghubungi Anda."
+    }
+  },
+  "contactPage": {
+    "title": "Hubungi Kami",
+    "subtitle": "Kami di sini untuk membantu. Hubungi kami jika ada pertanyaan atau untuk memesan perawatan Anda.",
+    "contactInfo": "Informasi Kontak",
+    "mobileService": "Layanan seluler tersedia di kota-kota besar.",
+    "headquarters": "Kantor Pusat: Jl. Kesehatan 123, Healthville, CA 90210",
+    "followUs": "Ikuti Kami"
+  },
+  "footer": {
+    "tagline": "Kesehatan yang datang kepada Anda.",
+    "services": "Layanan",
+    "ivTherapies": "Terapi IV",
+    "vitaminInjections": "Suntikan Vitamin",
+    "aesthetics": "Estetika",
+    "company": "Perusahaan",
+    "aboutUs": "Tentang Kami",
+    "careers": "Karier",
+    "legal": "Hukum",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsOfService": "Ketentuan Layanan",
+    "copyright": "© {year} Wellness by RevivBali. Hak Cipta Dilindungi Undang-Undang."
+  },
+  "whatsapp": "Obrolan di WhatsApp"
+}

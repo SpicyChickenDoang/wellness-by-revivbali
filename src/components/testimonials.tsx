@@ -32,7 +32,7 @@ export function Testimonials({ dictionary }: { dictionary: any }) {
   return (
     <section className="pt-8 pb-16 md:pt-12 md:pb-24">
       <div className="container mx-auto px-4">
-        <h2 className="text-[4rem] font-headline font-bold text-center text-secondary">
+        <h2 className="text-[3rem] md:text-[4rem] font-headline font-bold text-center text-gold">
           {dictionary.title}
         </h2>
         <p className="mt-4 text-center text-lg text-muted-foreground max-w-2xl mx-auto">

@@ -79,6 +79,19 @@ export const treatments: Treatment[] = [
     message: "I’d like to book NAD+ Elite 750 treatment!"
   },
   {
+    id: 'nad-full',
+    slug: "nad-full",
+    name: "Full NAD+ Rejuvenation",
+    price: 14370000,
+    shortDescription: "Golf Club Members special package: 5 Drips for the price of 3.",
+    longDescription: "Golf Club Members special package: 5 Drips for the price of 3",
+    benefits: ['Deep cellular renewal', 'Accelerated skin regeneration', 'Reduces oxidative damage', 'Brighter skin tone'],
+    category: 'IV Therapy',
+    imageId: 'nad-elite-750',
+    hue: 42,
+    message: "I’d like to book the Full NAD+ Rejuvenation package!"
+  },
+  {
     id: 'prp',
     slug: "prp",
     name: "PRP",
@@ -90,5 +103,5 @@ export const treatments: Treatment[] = [
     imageId: 'nad-elite-750',
     hue: 42,
     message: "I’d like to book PRP treatment!"
-  }
+  },
 ];

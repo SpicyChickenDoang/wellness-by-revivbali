@@ -73,7 +73,6 @@ export function BookingForm({ dictionary }: { dictionary: any }) {
 
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
     toast({
       title: dictionary.form.successTitle,
       description: dictionary.form.successDescription,

@@ -38,7 +38,7 @@ export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonTo
   return (
     <section className="pt-8 pb-16 md:pt-12 md:pb-24 animate-in fade-in-0 slide-in-from-bottom-12 duration-700 delay-300">
       <div className="container mx-auto px-4">
-        <h2 className="text-[3rem] font-headline font-bold text-center text-secondary flex flex-wrap justify-center items-center">
+        <h2 className="text-[3rem] font-headline font-bold text-center text-gold flex flex-wrap justify-center items-center">
           {dictionary.title}
         </h2>
         {/* <div className="flex justify-center items-center text-[1.8rem] lg:text-[4rem] font-headline font-bold">

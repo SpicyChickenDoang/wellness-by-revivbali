@@ -23,12 +23,30 @@ interface TreatmentDetailClientPageProps {
   slugToGradient: any;
 }
 
+interface Payment {
+  name: string,
+  url: string,
+  desc: string,
+  width: number,
+  height: number,
+}
+
 const treatmentSlug = [
   { slug: "nad-reboot-100", value: "100" },
   { slug: "nad-restore-200", value: "200" },
   { slug: "nad-regenerate-500", value: "500" },
-  { slug: "nad-elite-750", value: "750" }
+  { slug: "nad-elite-750", value: "750" },
+  { slug: "prp", value: "PRP" },
+  { slug: "nad-full", value: "NAD FULL" },
 ];
+
+const payments: Payment[] = [
+  { name: "amex", url: "/assets/images/payments/amex.png", desc: "amex image", height: 80, width: 80 },
+  { name: "jcb", url: "/assets/images/payments/jcb.png", desc: "jcb image", height: 80, width: 80 },
+  { name: "mastercard", url: "/assets/images/payments/mastercard.png", desc: "mastercard image", height: 80, width: 80 },
+  { name: "qris", url: "/assets/images/payments/qris.png", desc: "qris image", height: 80, width: 80 },
+  { name: "visa", url: "/assets/images/payments/visa.png", desc: "visa image", height: 80, width: 80 },
+]
 
 export default function TreatmentDetailClientPage({ treatment, allTreatments, dictionary, lang, softBorder, buttonToBorder, slugToGradient }: TreatmentDetailClientPageProps) {
   const router = useRouter();
@@ -86,6 +104,27 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
             <div className={cn("top-20 rounded-lg p-6 shadow-sm border", sborder)}>
               <h2 className="text-4xl font-bold font-headline text-primary">{treatment.name}</h2>
               <p className="mt-4 text-lg text-foreground text-justify">{treatment.longDescription}</p>
+
+              <div className={cn("mt-6 border-t pt-6", sborder)}>
+                <div className='flex flex-row gap-4 items-center'>
+                  {payments.map(payment => (
+                    <div
+                      key={payment.name} // Added key for React
+                      // 🛠️ FIX: Add 'relative' and set an aspect ratio
+                      className="relative"
+                    >
+                      <Image
+                        src={payment.url}
+                        alt={payment.name}
+                        height={payment.height}
+                        width={payment.width}
+                        className="object-cover rounded-xl"
+                        loading='lazy'
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
 
               <div className={cn("mt-6 border-t pt-6", sborder)}>
                 <RadioGroup

@@ -16,14 +16,14 @@ export function WellnessWherever({ dictionary }: { dictionary: any }) {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     {/* Left Column: Text Content */}
                     <div className="flex flex-col justify-center">
-                        <h2 className="text-[4rem] font-headline font-bold text-secondary">
+                        <h2 className="text-[3rem] md:text-[4rem] font-headline font-bold text-gold">
                             {dictionary.title}
                         </h2>
                         <ul className="mt-6 space-y-4 text-lg">
                             {benefits.map((benefit, index) => (
                                 <li key={index} className="flex items-start">
                                     <CheckCircle className="h-6 w-6 text-accent mr-3 mt-1 flex-shrink-0" />
-                                    <span className="text-secondary">{benefit}</span>
+                                    <span className="text-gold">{benefit}</span>
                                 </li>
                             ))}
                         </ul>

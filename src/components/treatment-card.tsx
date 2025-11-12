@@ -40,17 +40,17 @@ export default function TreatmentCard({ treatment, lang, softBorder, buttonToBor
         </div>
       </CardHeader>
       <CardContent className="flex-grow flex flex-col justify-center items-center p-4">
-        <CardTitle className="font-headline text-3xl sm:text-base text-primary">{treatment.name}</CardTitle>
-        <p className="mt-2 text-sm text-muted-foreground">{treatment.shortDescription}</p>
+        <CardTitle className="font-headline text-3xl sm:text-base text-card">{treatment.name}</CardTitle>
+        <p className="mt-2 text-sm text-card">{treatment.shortDescription}</p>
       </CardContent>
       <CardFooter className="flex justify-center items-center p-4 pt-0">
-        <p className="text-xl font-bold font-headline text-primary whitespace-nowrap">{formatPrice(treatment.price)}</p>
+        <p className="text-xl font-bold font-headline text-card whitespace-nowrap">{formatPrice(treatment.price)}</p>
         <Separator orientation="vertical" className="mx-4 h-6" />
         <div className="flex gap-2">
           <Button asChild variant="outline" className={cn(sborder)}>
             <Link href={`/${lang}/treatments/${treatment.slug}`}>Details</Link>
           </Button>
-          <Button asChild className="flex-1 md:flex-none rounded-md">
+          <Button asChild className="flex-1 md:flex-none rounded-md bg-accent">
             <Link
               href="#"
               onClick={(e) => {

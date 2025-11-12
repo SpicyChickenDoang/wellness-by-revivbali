@@ -52,7 +52,7 @@ export function SiteFooter({ dictionary }: { dictionary: any }) {
             <ul className="mt-4 space-y-2 text-sm">
               <li><Link href="/treatments" className="text-muted-foreground hover:text-primary">{dictionary.ivTherapies}</Link></li>
               <li><Link href="/treatments" className="text-muted-foreground hover:text-primary">{dictionary.vitaminInjections}</Link></li>
-              <li><Link href="/treatments" className="text-muted-foreground hover:text-primary">{dictionary.aesthetics}</Link></li>
+              <li><Link href="/treatments#aesthetics" className="text-muted-foreground hover:text-primary">{dictionary.aesthetics}</Link></li>
             </ul>
           </div>
           {/* <div>

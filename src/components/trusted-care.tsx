@@ -75,7 +75,7 @@ export function TrustedCare({ dictionary }: { dictionary: any }) {
 
           {/* Right Column: Text Content */}
           <div className="flex flex-col justify-center">
-            <h2 className="text-[4rem] font-headline font-bold text-secondary">
+            <h2 className="text-[3rem] md:text-[4rem] font-headline font-bold text-gold">
               {dictionary.title}
             </h2>
             <p className="mt-4 text-lg text-accent">
@@ -84,7 +84,7 @@ export function TrustedCare({ dictionary }: { dictionary: any }) {
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-4 gap-8 text-center">
               {stats.map((stat) => (
                 <div key={stat.label}>
-                  <p className="text-4xl font-bold font-headline text-secondary">{stat.value}</p>
+                  <p className="text-4xl font-bold font-headline text-gold">{stat.value}</p>
                   <p className="mt-2 text-[12px] text-accent uppercase tracking-wider">{stat.label}</p>
                 </div>
               ))}

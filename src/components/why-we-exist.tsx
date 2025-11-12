@@ -7,7 +7,7 @@ export function WhyWeExist({ dictionary }: { dictionary: any }) {
       <div className="container mx-auto px-4">
           <div className="flex flex-col space-y-4 text-center">
             {/* <h2 className="text-sm font-semibold uppercase tracking-wider text-primary">{dictionary.sectionTitle}</h2> */}
-            <h2 className="text-[4rem] font-headline font-bold text-secondary">{dictionary.title2}</h2>
+            <h2 className="text-[4rem] font-headline font-bold text-gold">{dictionary.title2}</h2>
             <h3 className="text-lg text-muted-foreground md:px-[16rem]">{dictionary.subtitle2}</h3>
           </div>
           {/* <div className="relative h-80 w-full rounded-lg overflow-hidden shadow-lg">

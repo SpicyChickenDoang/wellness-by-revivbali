@@ -148,7 +148,7 @@ export default function Orb({
       float v2 = smoothstep(1.0, mix(innerRadius, 1.0, n0 * 0.5), len);
       float v3 = smoothstep(innerRadius, mix(innerRadius, 1.0, 0.5), len);
       
-      vec3 col = mix(color1, color2, cl);
+      vec3 col = mix(color2, color2, cl);
       col = mix(color3, col, v0);
       col = (col + v1) * v2 * v3;
       col = clamp(col, 0.0, 1.0);

@@ -60,7 +60,7 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
                 <Orb
                   hoverIntensity={0.14}
                   rotateOnHover={false}
-                  hue={hue}
+                  hue={170}
                   forceHoverState={false}
                 />
               </div>

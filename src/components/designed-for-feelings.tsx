@@ -38,7 +38,7 @@ export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonTo
   return (
     <section className="pt-8 pb-16 md:pt-12 md:pb-24 animate-in fade-in-0 slide-in-from-bottom-12 duration-700 delay-300">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-headline font-bold text-center text-primary flex flex-wrap justify-center items-center">
+        <h2 className="text-[3rem] font-headline font-bold text-center text-secondary flex flex-wrap justify-center items-center">
           {dictionary.title}
         </h2>
         {/* <div className="flex justify-center items-center text-[1.8rem] lg:text-[4rem] font-headline font-bold">
@@ -90,16 +90,16 @@ export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonTo
                         loading="lazy"
                       />
                     )}
-                    <Icon className={cn("h-6 w-6 sm:h-12 sm:w-12 absolute sm:top-[1rem] sm:right-[6rem] top-[3rem] right-[1rem]", iconColor)} />
+                    {/* <Icon className={cn("h-6 w-6 sm:h-12 sm:w-12 absolute sm:top-[1rem] sm:right-[6rem] top-[3rem] right-[1rem]", iconColor)} /> */}
                   </div>
                 </CardHeader>
                 <CardContent className="flex-grow flex flex-col justify-center items-center p-4">
-                  <CardTitle className="font-headline text-2xl text-primary">{treatment.name}</CardTitle>
-                  <p className="mt-2 text-sm text-muted-foreground">{treatment.shortDescription}</p>
+                  <CardTitle className="font-headline text-2xl text-white">{treatment.name}</CardTitle>
+                  <p className="mt-2 text-sm text-white">{treatment.shortDescription}</p>
                 </CardContent>
                 <CardFooter className="flex flex-col md:flex-row md:justify-center md:items-center p-4 pt-0 gap-3 md:gap-0">
 
-                  <p className="text-xl font-bold font-headline text-primary whitespace-nowrap">
+                  <p className="text-xl font-bold font-headline text-white whitespace-nowrap">
                     {formatPrice(treatment.price)}
                   </p>
 
@@ -109,7 +109,7 @@ export function DesignedForFeelings({ dictionary, lang, slugToGradient, buttonTo
                     <Button asChild variant="outline" className={cn("flex-1 md:flex-none", sborder)}>
                       <Link href={`/${lang}/treatments/${treatment.slug}`}>Details</Link>
                     </Button>
-                    <Button asChild className="flex-1 md:flex-none rounded-md">
+                    <Button asChild className="flex-1 md:flex-none rounded-md bg-accent">
                       <Link
                         href="#"
                         onClick={(e) => {

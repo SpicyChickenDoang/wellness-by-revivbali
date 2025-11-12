@@ -23,7 +23,7 @@ export const treatments: Treatment[] = [
     benefits: ['Natural anti-aging', 'Smoother skin texture', 'Improved mood', 'Steady daily energy'],
     category: 'IV Therapy',
     imageId: 'nad-reboot-100',
-    hue: 30,
+    hue: 42,
     message: "I’d like to book NAD+ Reboot 100 treatment!"
   },
   {
@@ -36,22 +36,22 @@ export const treatments: Treatment[] = [
     benefits: ['Fights early signs of aging', 'Restores skin vitality', 'Sharper focus', 'Balanced mood'],
     category: 'IV Therapy',
     imageId: 'nad-restore-200',
-    hue: 270,
+    hue: 42,
     message: "I’d like to book NAD+ Restore 200 treatment!"
   },
-  // {
-  //   id: 'nad-3',
-  //   slug: "nad-revive-250",
-  //   name: "NAD+ Revive 250",
-  //   price: 3390000,
-  //   shortDescription: "Advanced NAD+ therapy for visible skin glow and deep anti-aging repair.",
-  //   longDescription: "For those seeking stronger results, NAD+ Revive 250 penetrates deeper into cellular metabolism, stimulating natural collagen and DNA repair. It helps reduce inflammation, smooth fine lines, and improve overall complexion while enhancing mood and energy. Recommended for moderate fatigue, early skin aging, and mild oxidative stress.",
-  //   benefits: ['Deep anti-aging repair', 'Reduces inflammation', 'Smooths fine lines', 'Enhances mood and energy'],
-  //   category: 'IV Therapy',
-  //   imageId: 'nad-revive-250',
-  //   hue: 170,
-  //   message: "I’d like to book NAD+ Revive 250 treatment!"
-  // },
+  {
+    id: 'nad-3',
+    slug: "nad-revive-250",
+    name: "NAD+ Revive 250",
+    price: 3390000,
+    shortDescription: "Advanced NAD+ therapy for visible skin glow and deep anti-aging repair.",
+    longDescription: "For those seeking stronger results, NAD+ Revive 250 penetrates deeper into cellular metabolism, stimulating natural collagen and DNA repair. It helps reduce inflammation, smooth fine lines, and improve overall complexion while enhancing mood and energy. Recommended for moderate fatigue, early skin aging, and mild oxidative stress.",
+    benefits: ['Deep anti-aging repair', 'Reduces inflammation', 'Smooths fine lines', 'Enhances mood and energy'],
+    category: 'IV Therapy',
+    imageId: 'nad-revive-250',
+    hue: 42,
+    message: "I’d like to book NAD+ Revive 250 treatment!"
+  },
   {
     id: 'nad-4',
     slug: "nad-regenerate-500",
@@ -62,7 +62,7 @@ export const treatments: Treatment[] = [
     benefits: ['Restores skin elasticity', 'Supports cellular turnover', 'Reduces wrinkles', 'Boosts long-term vitality'],
     category: 'IV Therapy',
     imageId: 'nad-regenerate-500',
-    hue: 220,
+    hue: 42,
     message: "I’d like to book NAD+ Regenerate 500 treatment!"
   },
   {
@@ -75,7 +75,20 @@ export const treatments: Treatment[] = [
     benefits: ['Deep cellular renewal', 'Accelerated skin regeneration', 'Reduces oxidative damage', 'Brighter skin tone'],
     category: 'IV Therapy',
     imageId: 'nad-elite-750',
-    hue: 120,
+    hue: 42,
     message: "I’d like to book NAD+ Elite 750 treatment!"
+  },
+  {
+    id: 'prp',
+    slug: "prp",
+    name: "PRP",
+    price: 999999,
+    shortDescription: "Haircare and Skin Rejuvination.",
+    longDescription: "Our most intensive NAD+ therapy, NAD+ Elite 750 delivers deep cellular renewal, enhanced mitochondrial function, and accelerated skin regeneration. Designed for those seeking to extend healthspan and preserve youthfulness, this infusion helps reduce oxidative damage, lift mood, and produce a brighter, more even skin tone. Perfect for biohackers, executives, and long-stay visitors pursuing complete rejuvenation.",
+    benefits: ['Deep cellular renewal', 'Accelerated skin regeneration', 'Reduces oxidative damage', 'Brighter skin tone'],
+    category: 'Aesthetics',
+    imageId: 'nad-elite-750',
+    hue: 42,
+    message: "I’d like to book PRP treatment!"
   }
 ];

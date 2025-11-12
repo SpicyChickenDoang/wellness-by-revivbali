@@ -16,65 +16,16 @@ interface Branch {
   lng: number;
   image: string;
   viewMap: string;
-  rating: string;
+  rating?: string;
 }
 
 const branches: Branch[] = [
   {
-    name: "24/7 Bali Belly Home Doctor & Infusion Therapy. (Seminyak)",
-    lat: -8.7085285,
-    lng: 115.1720993,
-    image: "/images/branch_seminyak.png",
-    viewMap: "https://maps.app.goo.gl/pd6oaCqVY7T6Px5t6",
-    rating: "4.9",
-  },
-  {
-    name: "IV Drip Clinic - Mobile Home Service Bali (24/7) - Bali Belly - Immunity - Hangover. (Jimbaran)",
-    lat: -8.8030159,
-    lng: 115.1517049,
-    image: "/images/branch_jimbaran.png",
-    viewMap: "https://maps.app.goo.gl/5yUDkQhDydMX8mVg6",
-    rating: "5.0",
-  },
-  {
-    name: "24/7 Apotek Online Pharmacy - Med Delivery - Doctor & IV Drip Home Service. (Canggu)",
-    lat: -8.6457827,
-    lng: 115.1614056,
-    image: "/images/branch_canggu.png",
-    viewMap: "https://maps.app.goo.gl/c44xTQpzkbR3UJuN6",
-    rating: "5.0",
-  },
-  {
-    name: "24/7 Pharmacy Bali - Online Med Delivery Service & IV Drips. (Sanur)",
-    lat: -8.6873148,
-    lng: 115.2527399,
-    image: "/images/branch_sanur.png",
-    viewMap: "https://maps.app.goo.gl/EJQcrfoPKSX4gix5A",
-    rating: "5.0",
-  },
-  {
-    name: "IV Drip Bali Home Service - Bali Belly - Hangover - Immune Booster. (Umalas)",
-    lat: -8.6682427,
-    lng: 115.1624502,
-    image: "/images/branch_umalas.png",
-    viewMap: "https://maps.app.goo.gl/BdFx75hdBXa6n6kRA",
-    rating: "5.0",
-  },
-  {
-    name: "Pharmacy 24/7 Med Delivery & IV Drip. Home Service Only. (Pererenan)",
-    lat: -8.6324218,
-    lng: 115.1322885,
-    image: "/images/branch_pererenan.png",
-    viewMap: "https://maps.app.goo.gl/DxHgbWi36Pyk7Rtd9",
-    rating: "5.0",
-  },
-  {
-    name: "Bali belly, Immunity, Hangover IV Drip Homecare & Pharmacy 24/7. (Berawa)",
-    lat: -8.64609,
-    lng: 115.15189,
-    image: "/images/branch_berawa.png",
-    viewMap: "https://maps.app.goo.gl/btwnjpKVLJbwbPv59",
-    rating: "5.0",
+    name: "HRD Office New Kuta Golf",
+    lat: -8.8082272,
+    lng: 115.1283142,
+    image: "/images/logo-new2.webp",
+    viewMap: "https://maps.app.goo.gl/tYSCYZFADymPbXEf9",
   },
 ];
 
@@ -83,7 +34,7 @@ const containerStyle = {
   height: "400px",
 };
 
-const center = { lat: -8.6905, lng: 115.2122 };
+const center = { lat: -8.8082, lng: 115.1283 };
 
 export default function GoogleMaps() {
   const [selected, setSelected] = useState<Branch | null>(null);
@@ -94,7 +45,7 @@ export default function GoogleMaps() {
         Our Clinic Branch Location
       </h3> */}
       <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY!}>
-        <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={11}>
+        <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={13}>
           {branches.map((branch, i) => (
             <Marker
               key={i}

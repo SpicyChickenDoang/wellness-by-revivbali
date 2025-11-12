@@ -17,8 +17,8 @@ export function FinalCta({ dictionary }: { dictionary: any }) {
           loading="lazy"
         />
       <div className="absolute inset-0 bg-black/60" />
-      <div className="relative z-10 p-4 max-w-3xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-headline font-bold">
+      <div className="relative z-10 max-w-3xl mx-auto">
+        <h2 className="text-[4rem] font-headline font-bold text-primary">
           {dictionary.title}
         </h2>
         <Button asChild size="lg" className="mt-8 bg-green-500 hover:bg-green-600 text-white font-bold rounded-full px-6 py-3">

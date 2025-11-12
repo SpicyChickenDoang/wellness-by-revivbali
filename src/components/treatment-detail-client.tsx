@@ -72,11 +72,11 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-12">
           {/* Main Content */}
           <div className="lg:col-span-3 justify-center items-center flex flex-col">
-            <div className="relative aspect-square w-full md:w-2/3 lg:w-[50%]">
+            <div className="relative aspect-square w-full md:w-2/3 lg:w-[80%]">
               {/* Orb as background - full size */}
-              <div className="absolute -inset-12 flex items-center justify-center z-10">
+              <div className="absolute -inset-12 flex items-center justify-center z-3">
                 <Orb
-                  hoverIntensity={0.14}
+                  hoverIntensity={0.03}
                   rotateOnHover={false}
                   hue={170}
                   forceHoverState={false}
@@ -85,7 +85,7 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
 
               {/* Image on top - smaller than container */}
               {image && (
-                <div className="relative w-[100%] h-[100%] mx-auto my-auto justify-center z-0">
+                <div className="relative w-[100%] h-[100%] mx-auto my-auto justify-center z-3">
                   <Image
                     src={image.imageUrl}
                     alt={treatment.name}
@@ -146,7 +146,7 @@ export default function TreatmentDetailClientPage({ treatment, allTreatments, di
                         <Label
                           htmlFor={`r-${volume.value}`}
                           className={cn(
-                            "flex items-center justify-center rounded-md border-2 border-muted p-3 text-md font-medium hover:bg-accent hover:text-accent-foreground cursor-pointer text-lg",
+                            "flex items-center justify-center rounded-md border-2 border-muted p-3 text-md font-bold hover:bg-accent hover:text-accent-foreground cursor-pointer",
                             currentVolume === volume.value ? "bg-accent text-accent-foreground" : ""
                           )}
                         >

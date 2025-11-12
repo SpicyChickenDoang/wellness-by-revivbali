@@ -37,14 +37,8 @@ export function HeroMobile({ dictionary }: { dictionary: any }) {
           className="absolute top-1/2 left-1/2 w-full h-full min-w-full min-h-full object-cover -translate-x-1/2 -translate-y-1/2"
         >
           <source
-            src="/assets/video/nad-desktop.webm"
-            type="video/webm"
-            media="(min-width: 768px)"
-          />
-          <source
             src="/assets/video/nad-mobile.webm"
             type="video/webm"
-            media="(max-width: 767px)"
           />
         </video>
         {/* {!scrolled &&

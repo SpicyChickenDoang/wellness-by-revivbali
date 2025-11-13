@@ -10,10 +10,10 @@ export function FinalCta({ dictionary }: { dictionary: any }) {
   return (
     <section className="relative py-24 md:py-32 w-full flex items-center justify-center text-white text-center">
         <Image
-          src={"/assets/images/sunset.webp"}
+          src={"/assets/images/cliffside.webp"}
           alt={"Sunset background"}
           fill
-          className="object-cover object-bottom"
+          className="object-cover"
           loading="lazy"
         />
       <div className="absolute inset-0 bg-black/60" />

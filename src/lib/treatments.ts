@@ -13,6 +13,45 @@ export type Treatment = {
 };
 
 export const treatments: Treatment[] = [
+    {
+    id: 'secretom-1',
+    slug: "secretom-1",
+    name: "Secretome Basic",
+    price: 999999,
+    shortDescription: "A purified, foundational blend of essential growth factors and cytokines designed to stimulate basic cellular repair and support skin vitality.",
+    longDescription: "The Basic Secretome provides a core, foundational matrix of the most critical signaling molecules released by progenitor cells. This version is meticulously filtered to concentrate key epidermal growth factors (EGF) and basic fibroblast growth factors (bFGF) known to stimulate collagen and elastin production. It offers essential cellular support, promoting improved texture, hydration, and defense against minor environmental stress. Best suited for clients seeking introductory regenerative benefits and proactive skin maintenance.",
+    benefits: ['Deep cellular renewal', 'Accelerated skin regeneration', 'Reduces oxidative damage', 'Brighter skin tone'],
+    category: 'Vitamin Injections',
+    imageId: 'nad-elite-750',
+    hue: 42,
+    message: "I’d like to book Secretome Basic treatment!"
+  },
+    {
+    id: 'secretom-2',
+    slug: "secretom-2",
+    name: "Secretome Super",
+    price: 999999,
+    shortDescription: "An advanced, comprehensive solution featuring a high concentration of therapeutic exosomes and a full spectrum of signaling molecules for intensive cellular reprogramming and tissue repair.",
+    longDescription: "The Super Secretome represents the full, complex therapeutic output of the cell. This proprietary blend is distinguished by its intensive concentration of purified Exosomes, which act as targeted delivery vehicles, efficiently transferring stabilizing proteins and regenerative microRNAs directly into recipient cells. Beyond basic growth factors, it includes a broad array of anti-inflammatory cytokines, collagenase inhibitors, and modulating lipids. This formula is designed for advanced applications, targeting deep wrinkles, significant scarring, chronic inflammation, and comprehensive tissue rejuvenation. It provides maximal efficacy by leveraging the complete, synergistic signaling power of the secretome.",
+    benefits: ['Deep cellular renewal', 'Accelerated skin regeneration', 'Reduces oxidative damage', 'Brighter skin tone'],
+    category: 'Vitamin Injections',
+    imageId: 'nad-elite-750',
+    hue: 42,
+    message: "I’d like to book Secretome Super treatment!"
+  },
+    {
+    id: 'prp',
+    slug: "prp",
+    name: "PRP",
+    price: 999999,
+    shortDescription: "An autologous treatment that utilizes your body's concentrated platelets and growth factors to stimulate fundamental healing, collagen production, and natural tissue repair.",
+    longDescription: "The Basic PRP Treatment involves drawing a small sample of the patient's own blood and processing it to separate the plasma layer highly concentrated with platelets. This Platelet-Rich Plasma is then introduced into the target area (such as the scalp or superficial facial tissue). The high concentration of platelets releases essential Growth Factors (e.g., PDGF, VEGF) that trigger a localized healing cascade, promoting increased blood supply, basic collagen synthesis, and improved cell turnover. This protocol is ideal for targeted spot treatments, mild signs of aging, or foundational hair restoration efforts.",
+    benefits: ['Deep cellular renewal', 'Accelerated skin regeneration', 'Reduces oxidative damage', 'Brighter skin tone'],
+    category: 'Aesthetics',
+    imageId: 'nad-elite-750',
+    hue: 42,
+    message: "I’d like to book PRP treatment!"
+  },
   {
     id: 'nad-1',
     slug: "nad-reboot-100",
@@ -90,18 +129,5 @@ export const treatments: Treatment[] = [
     imageId: 'nad-elite-750',
     hue: 42,
     message: "I’d like to book the Full NAD+ Rejuvenation package!"
-  },
-  {
-    id: 'prp',
-    slug: "prp",
-    name: "PRP",
-    price: 999999,
-    shortDescription: "Haircare and Skin Rejuvination.",
-    longDescription: "Our most intensive NAD+ therapy, NAD+ Elite 750 delivers deep cellular renewal, enhanced mitochondrial function, and accelerated skin regeneration. Designed for those seeking to extend healthspan and preserve youthfulness, this infusion helps reduce oxidative damage, lift mood, and produce a brighter, more even skin tone. Perfect for biohackers, executives, and long-stay visitors pursuing complete rejuvenation.",
-    benefits: ['Deep cellular renewal', 'Accelerated skin regeneration', 'Reduces oxidative damage', 'Brighter skin tone'],
-    category: 'Aesthetics',
-    imageId: 'nad-elite-750',
-    hue: 42,
-    message: "I’d like to book PRP treatment!"
   },
 ];

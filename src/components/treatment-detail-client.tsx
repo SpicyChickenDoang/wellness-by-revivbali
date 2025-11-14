@@ -38,6 +38,8 @@ const treatmentSlug = [
   { slug: "nad-elite-750", value: "750" },
   { slug: "prp", value: "PRP" },
   { slug: "nad-full", value: "NAD FULL" },
+  { slug: "secretom-1", value: "SEC BASIC" },
+  { slug: "secretom-2", value: "SEC SUPER" },
 ];
 
 const payments: Payment[] = [

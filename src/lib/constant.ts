@@ -9,6 +9,8 @@ export const iconMap: { [key: string]: React.ElementType<LucideProps> } = {
   'nad-elite-750': Zap,
   'prp': ScanFace,
   'nad-full': ScanFace,
+  'secretom-1': ScanFace,
+  'secretom-2': ScanFace,
 };
 
 export const slugToColor: { [key: string]: string } = {
@@ -19,6 +21,8 @@ export const slugToColor: { [key: string]: string } = {
   'nad-elite-750': 'text-gold',
   'prp': 'text-gold',
   'nad-full': 'text-gold',
+  'secretom-1': 'text-gold',
+  'secretom-2': 'text-gold',
 };
 
 export const slugToGradient: { [key: string]: string } = {
@@ -29,6 +33,8 @@ export const slugToGradient: { [key: string]: string } = {
   'nad-elite-750': 'from-gold to-card',
   'prp': 'from-gold to-card',
   'nad-full': 'from-gold to-card',
+  'secretom-1': 'from-gold to-card',
+  'secretom-2': 'from-gold to-card',
 };
 
 export const buttonToBorder: { [key: string]: string } = {
@@ -39,6 +45,8 @@ export const buttonToBorder: { [key: string]: string } = {
   'nad-elite-750': 'border-yellow-200',
   'prp': 'border-yellow-200',
   'nad-full': 'border-yellow-200',
+  'secretom-1': 'border-yellow-200',
+  'secretom-2': 'border-yellow-200',
 };
 
 export const softBorder: { [key: string]: string } = {
@@ -49,4 +57,6 @@ export const softBorder: { [key: string]: string } = {
     'nad-elite-750': 'border-yellow-200',
     'prp': 'border-yellow-200',
     'nad-full': 'border-yellow-200',
+    'secretom-1': 'border-yellow-200',
+    'secretom-2': 'border-yellow-200',
   };
